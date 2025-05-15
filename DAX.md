@@ -113,7 +113,7 @@ This Calendar table wasn't used in this analysis but it was created, alongside s
 
 A separate Channel Table was created, Channel data was analyzed using a new data table, a Dax measure was also created seperately for it.
 
-## Table
+# Table
 
 Channels = 
 DATATABLE(
@@ -125,7 +125,7 @@ DATATABLE(
     }
 )
 
-## DAX
+# DAX
 
 Channel Purchases = 
 SWITCH(
@@ -142,7 +142,7 @@ These Table represent the Channels used by customers to shop various product cat
 
 A separate Products Table was explicitly created, product-related data was analyzed using a new table, a Dax measure was also created seperately for it.
 
-## Table
+# Table
 
 Products = 
 DATATABLE(
@@ -157,7 +157,7 @@ DATATABLE(
     }
 )
 
-## DAX 
+# DAX 
 
 Product Spend =
 SWITCH(
@@ -179,7 +179,7 @@ These Table represent the amount spent by customers on various product categorie
 A separate Campaign Table was created using the datatable function, Campaign performance data was analyzed using a new table, a Dax measure was also created seperately for it.
 
 
-## Table
+# Table
 
 campaigns = 
 DATATABLE(
@@ -193,7 +193,7 @@ DATATABLE(
     }
 )
 
-## DAX
+# DAX
 
 Accepted Campaign Count = 
 SWITCH(
@@ -291,7 +291,6 @@ Calculates the total number of purchases made using discounts.
 
 
 
-Discount Purchases = SUM(Marketing[NumDealsPurchases])
 
 
 
