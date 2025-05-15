@@ -9,7 +9,7 @@ This project presents a Marketing Campaign Analysis using Power BI. The goal is 
 
 ### 1. Home Page
 
-![Marketing Campaign Home Page](.MC-Home-Page.png)
+![Marketing Campaign Home Page](MC-Home-Page.png)
 
 
 The **Home Page** provides a high-level view of marketing performance, customer income, purchase behaviors, and top product categories.
@@ -50,7 +50,7 @@ This page gives a high-level overview of the marketing performance:
 
 
 ### 2. Grid Page
-![Marketing Campaign Grid Page](.MC-Grid-Page)
+![Marketing Campaign Grid Page](MC-Grid-Page.png)
 
 
 The **Grid Page** dives deeper into demographics, customer distribution, and campaign response insights.
