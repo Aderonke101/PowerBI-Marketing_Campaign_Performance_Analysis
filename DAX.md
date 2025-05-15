@@ -240,23 +240,14 @@ Indicates whether a customer accepted any campaign.
 Campaign Accepted = 
 
 IF(
-
-  Marketing[AcceptedCmp1] + 
-
-  Marketing[AcceptedCmp2] + 
-
-  Marketing[AcceptedCmp3] + 
-
-  Marketing[AcceptedCmp4] + 
-
-  Marketing[AcceptedCmp5] + 
-
-  Marketing[Response] > 0, 
-
+    marketing_data[Accepted_Campaign1] + 
+    marketing_data[Accepted_Campaign2] + 
+    marketing_data[Accepted_Campaign3] + 
+    marketing_data[Accepted_Campaign4] + 
+    marketing_data[Accepted_Campaign5]  
+    Marketing[Response] > 0, 
   "Yes", 
-
   "No"
-
 )
 
 
