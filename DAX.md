@@ -294,7 +294,7 @@ Calculates the total number of purchases made using discounts.
 
 
 
-### Data Model Alignment
+## 7.  Data Model Alignment
 
 
 The data model is structured to facilitate intuitive analysis:
